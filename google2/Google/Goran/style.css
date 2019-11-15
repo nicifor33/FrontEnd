@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: dimgray;
+}
+li {
+    display: inline;
+    float: right;
+    padding: 7px;
+    margin-top: 10px;
+
+}
+.prijava{
+    background-color: #4285f4;
+    color: white;
+    padding: 5px 15px;
+    margin-right: 30px;
+}
+
+.link_gore:hover{
+    text-decoration: underline;
+
+}
+.slika{
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
+.pretraga{
+
+    position: absolute;
+    top: 320px;
+    left: 555px;
+}
+.polje{
+    width: 650px;
+    height: 40px;
+    border-radius: 70px;
+    border: solid #F5F5F5;
+    text-indent:40px;
+
+
+}
+
+.fa-search{
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    color: darkgrey;
+}
+.fa-microphone{
+    position: absolute;
+    top: 15px;
+    left: 627px;
+    color: darkgrey;
+}
+.fa-keyboard-o{
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    color: black;
+
+}
+.ispod{
+    position: absolute;
+    top: 72px;
+    left: 185px;
+    width: 130px;
+    height: 30px;
+    background-color: 	#F5F5F5;
+    text-align: center;
+    padding-top: 10px;
+     border-radius: 5px;
+}
+.ispod2{
+    position: absolute;
+    top: 72px;
+    left: 340px;
+    width: 100px;
+    height: 30px;
+    background-color: 	#F5F5F5;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+
+}
+.linkovi_dole{
+    background-color: 	#F5F5F5;
+
+
+}
+.ispod:hover{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+
+}
+.ispod2:hover{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+
+}
+

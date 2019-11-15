@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Formular</title>
+	</head>
+	<body>
+	<form>
+        <fieldset style="width: 300px"><legend>&nbsp;&nbsp;Personalne informacije:&nbsp;&nbsp;</legend>
+        <br><br>
+        &nbsp;&nbsp;&nbsp;Ime: <br>&nbsp;&nbsp;&nbsp;<input type="text" maxlength="30"><br><br>
+        &nbsp;&nbsp;&nbsp;Prezime:<br>&nbsp;&nbsp;&nbsp;<input type="text" maxlength="30"><br><br>
+         &nbsp;&nbsp;&nbsp;e-mail:<br>&nbsp;&nbsp;&nbsp;<input type="email" maxlength="30"><br><br>
+         &nbsp;&nbsp;&nbsp;Datum početka obuke:&nbsp;&nbsp;<input type="date"><br><br>
+        &nbsp;&nbsp;&nbsp;Broj pohađanih kurseva (između 0 i 20):<br>&nbsp;&nbsp;&nbsp;<input type="number" min="0" max="20"><br><br>
+         &nbsp;&nbsp;&nbsp;Odaberite naziv kursa:<br>
+            &nbsp;&nbsp;&nbsp;<select name="kurs">
+                    <option value="Web dizajn">Web dizajn</option>
+                    <option value="C#" selected>C#</option>
+                    <option value="Napredna škola programiranja za decu">Napredna škola programiranja za decu</option>
+                    <option value="Java">Java</option>
+                </select><br><br>
+       &nbsp;&nbsp;&nbsp; Da li Vam se dopada sadržaj kursa:&nbsp;&nbsp;&nbsp;<input type="radio" name="ocena"> da &nbsp;&nbsp;&nbsp;<input type="radio" name="ocena"> ne<br><br>
+        &nbsp;&nbsp;&nbsp;Pomozite nam da unapredimo kurs koji pohađate:<br>
+            &nbsp;&nbsp;&nbsp;<textarea rows="4" cols="50" placeholder="Unesite komentar..."></textarea><br><br>
+               &nbsp;&nbsp;&nbsp; <input type="submit" value="Potvrdi">
+        </fieldset>
+    </form>
+
+
+	</body>
+</html>

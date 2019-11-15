@@ -1,0 +1,57 @@
+/*poništavanje margina web browser-a radi se u startu pravljenja css-a . * je univerzalni selektor
+A može i da se ponište margine definišući ih na nivou body i html taga*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+body, html{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+    height: 800px;
+    /*background-image: url(../slike/saguaro.jpg);*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    color:red;
+        text-align: justify;
+        text-decoration: underline;
+        line-height: 2;
+        font-variant: small-caps;
+    font-weight: 900;
+}
+h1{
+    color: green; font-size: 38px;
+     background-color: bisque;
+    padding:30px 0;
+    margin-bottom: 150px;
+
+
+
+}
+
+.naslov{
+    color: brown;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+    font-family: 'Yeon Sung', cursive;
+     text-align: center;
+
+
+    }
+.glNaslov{
+    font-size: 60px;
+}
+.mnaslov{
+    font-size: 30px;
+}
+
+#glNaslov{
+    color: cadetblue;
+}
